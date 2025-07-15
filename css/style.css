@@ -1,0 +1,54 @@
+@font-face{
+    font-family: 'Muller';
+    src: local('Muller-Trial-Black'),
+      url(Muller-Trial-Black.woff) format(woff),
+      url(Muller-Trial-Black.woff2) format(woff2);
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;   
+}
+
+@font-face{
+    font-family: 'Muller';
+    src: local('Muller-Trial-Bold'),
+      url(Muller-Trial-Bold.woff) format(woff),
+      url(Muller-Trial-Bold.woff2) format(woff2);
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;   
+}
+
+@font-face{
+    font-family: 'Muller';
+    src: local('Muller-Trial-ExtraBoldItalic'),
+      url(Muller-Trial-ExtraBoldItalic.woff) format(woff),
+      url(Muller-Trial-ExtraBoldItalic.woff2) format(woff2);
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;   
+}
+
+body{
+    font-family: 'Muller', sans-serif;
+    margin: 0 auto;
+}
+
+a {
+    color: #1C1C1C;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+button {
+    border: none;
+    background-color: #3172B9;
+    color: white;
+}
