@@ -52,3 +52,7 @@ button {
     background-color: #3172B9;
     color: white;
 }
+
+form {
+    border: 1px, #DADADA;
+}
