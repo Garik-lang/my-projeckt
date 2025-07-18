@@ -56,3 +56,19 @@ button {
 form {
     border: 1px, #DADADA;
 }
+
+
+.brand-view{
+    margin-left: 
+    186px;
+    margin-top: 36px;
+}
+
+.nav-list{
+    display: flex;
+    margin-top: 36px;
+}
+
+.nav-item-list{
+    display: flex;
+}
