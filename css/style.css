@@ -30,7 +30,6 @@
 
 body{
     font-family: 'Muller', sans-serif;
-    margin: 0 auto;
 }
 
 a {
@@ -57,18 +56,30 @@ form {
     border: 1px, #DADADA;
 }
 
+.main-header{
+ display: flex;
+ align-items: center;
 
+}
 .brand-view{
-    margin-left: 
-    186px;
-    margin-top: 36px;
+
 }
 
-.nav-list{
-    display: flex;
+.logo-header{
+    margin-left: 186px;
     margin-top: 36px;
 }
 
 .nav-item-list{
     display: flex;
+}
+
+.nav-list-item{
+    display: flex;
+}
+
+
+.free-trial{
+    display: flex;
+
 }
