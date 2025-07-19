@@ -62,6 +62,7 @@ form {
     margin-left: 
     186px;
     margin-top: 36px;
+    display: flex;
 }
 
 .nav-list{
