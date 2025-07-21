@@ -56,6 +56,8 @@ form {
     border: 1px, #DADADA;
 }
 
+/*header*/
+
 .main-header{
  display: flex;
 }
@@ -85,3 +87,25 @@ form {
     padding: 17.5px 30px;
     border-radius: 3px;
 }
+
+/*repasition*/
+
+.main-ripsitions{
+    background-image:url(/images/first-bg\ 1.jpg);
+    width: 1520.5px;
+    height: 550px;
+    margin-top: 30px;
+}
+
+.ripsitions-h1{
+     padding: 113px;
+     padding-left: 185px;
+     font-family: 'Muller', sans-serif;
+}
+
+.ripsitions-p{
+   padding-left: 185px;
+   padding-top: 24px;
+}
+
+
