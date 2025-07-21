@@ -56,13 +56,10 @@ form {
     border: 1px, #DADADA;
 }
 
+/*header*/
+
 .main-header{
  display: flex;
- align-items: center;
-
-}
-.brand-view{
-
 }
 
 .logo-header{
@@ -72,14 +69,43 @@ form {
 
 .nav-item-list{
     display: flex;
+    gap: 52px;
+    justify-content: center;
+    margin-top: 45px;
 }
 
 .nav-list-item{
     display: flex;
+    gap: 52px;
 }
 
 
 .free-trial{
     display: flex;
-
+    margin-left: 900px;
+    margin-top: -50px;
+    padding: 17.5px 30px;
+    border-radius: 3px;
 }
+
+/*repasition*/
+
+.main-ripsitions{
+    background-image:url(/images/first-bg\ 1.jpg);
+    width: 1520.5px;
+    height: 550px;
+    margin-top: 30px;
+}
+
+.ripsitions-h1{
+     padding: 113px;
+     padding-left: 185px;
+     font-family: 'Muller', sans-serif;
+}
+
+.ripsitions-p{
+   padding-left: 185px;
+   padding-top: 24px;
+}
+
+
