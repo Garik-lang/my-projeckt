@@ -98,7 +98,7 @@ form {
 }
 
 .ripsitions-h1{
-     padding: 113px;
+     padding: 70px;
      padding-left: 185px;
      font-family: 'Muller', sans-serif;
 }
@@ -107,5 +107,153 @@ form {
    padding-left: 185px;
    padding-top: 24px;
 }
+
+.ripsitions-buttom{
+    padding: 19px 58px;
+    margin-left: 185px;
+    border-radius: 3px;
+}
+
+/*services*/
+
+.services-h2{
+    margin-left: 705px;
+}
+
+.services-p{
+    margin-left: 475px;
+}
+
+
+.services-Item-list{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-left: 185px;
+}
+
+.services-list-Item{
+    display: flex;
+    border: 1px solid #E4E4E4;
+    width: 270px;
+    height: 320px;
+    display: inline-block;
+}
+
+.services-img{
+    width: 100px;
+    height: 100px;
+    padding-left: 80px;
+}
+
+.services-list-Item-p{
+    padding-top: 25px;
+    padding-left: 33px;
+}
+
+
+.services-h3{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.services-h3-1{
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.services-h3-2{
+    padding-left: 80px;
+    padding-top: 10px;
+}
+/*articles*/
+
+.articles-h2{
+    margin-left: 180px;
+    margin-top: 85px;
+}
+
+
+.articles-Item-list{
+    display: flex;
+    border: 1px solid #E4E4E4;
+    margin-left: 135px;
+    width: 560px;
+    display:inline-block ;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.articles-p-1{
+    padding-top: 70px;
+    padding-right: 50px;
+}
+
+
+
+.articles-h3{
+    margin-left: 50px;
+    height: 30px;
+}
+
+
+.articles-list-Item{
+    display: flex;
+}
+
+.articles-img{
+    width: 185px;
+    height: 195px;
+}
+
+/*clients*/
+
+
+.clients-h2{
+    margin-left: 180px;
+    margin-top: 85px;
+}
+
+
+
+.clients-Item-list{
+    display: flex;
+    border: 1px solid #E4E4E4;
+    width: 370px;
+    height: 360px;
+    margin-left: 185px;
+    display: inline-block;
+}
+
+/*contacts*/
+
+
+
+.contacts-h2{
+    margin-left: 185px;
+    margin-top: 85px;
+}
+
+
+.contacts-Item-list{
+    display: flex;
+    display: inline-block;
+    border: 1px solid red;
+    width: 120px;
+    height: 160px;
+}
+
+.contacts-list-Item{
+    display: flex;
+}
+
+
+.contacts-h3{
+
+}
+
+
+
+
 
 
