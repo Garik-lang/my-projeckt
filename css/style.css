@@ -183,9 +183,23 @@ form {
     gap: 30px;
 }
 
-.articles-div{
-    display: flex;
-    justify-content: center;
+
+.articles-p{
+    padding-top: 2px;
+    margin-left: 8px;
+    color: #787878;
+}
+
+
+.articles-p-1{
+    padding-top: 80px;
+    margin-left: -115px;
+    color: #787878;
+}
+
+.articles-h3{
+    padding-top: 25px;
+    margin-left: -50px;
 }
 
 
@@ -209,15 +223,27 @@ form {
 }
 
 
-
 .clients-Item-list{
     display: flex;
     border: 1px solid #E4E4E4;
     width: 370px;
     height: 360px;
     margin-left: 185px;
-    display: inline-block;
+    display:inline-flex;
+    gap: 30px;
 }
+
+
+.clients-list-Item{
+    flex: 0 0 calc(50%-30px);
+}
+
+.clients-name{
+   margin-left: 40pxs;
+}
+
+
+
 
 /*contacts*/
 
