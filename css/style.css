@@ -179,26 +179,20 @@ form {
     border: 1px solid #E4E4E4;
     margin-left: 135px;
     width: 560px;
-    display:inline-block ;
-    flex-wrap: wrap;
+    display: inline-block;
     gap: 30px;
 }
 
-.articles-p-1{
-    padding-top: 70px;
-    padding-right: 50px;
+.articles-div{
+    display: flex;
+    justify-content: center;
 }
 
-
-
-.articles-h3{
-    margin-left: 50px;
-    height: 30px;
-}
 
 
 .articles-list-Item{
     display: flex;
+    justify-content: center;
 }
 
 .articles-img{
