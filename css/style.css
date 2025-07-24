@@ -226,22 +226,31 @@ form {
 .clients-Item-list{
     display: flex;
     border: 1px solid #E4E4E4;
-    width: 370px;
-    height: 360px;
-    margin-left: 185px;
+    width: 310px;
+    height: 280px;
+    margin-left: 145px;
     display:inline-flex;
     gap: 30px;
 }
 
-
-.clients-list-Item{
-    flex: 0 0 calc(50%-30px);
+.clients-opinion{
+    padding-top: 5px;
 }
+
+
+.clients-foto{
+    display: inline;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
 
 .clients-name{
-   margin-left: 40pxs;
+    display: flex;
+    padding-left: 130px;
+    padding-bottom: 50px;
+    margin: 0 auto;
 }
-
 
 
 
