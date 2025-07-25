@@ -298,18 +298,43 @@ form {
 }
 
 
-
-
 /*Joinn us*/
 
+.join-h2{
+    margin-top: 85px;
+    margin-left: 715px;
+}
+
+.join-p{
+   margin-left: 595px;
+}
 
 
+.join-form{
+    margin-left: 240px;
+}
 
 
+.join-div{
+    margin-top: 40px;
+}
+
+.join-input{
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
 
 
-
-
+.join-comment{
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-bottom: 95px;
+    padding-right: 415px;
+    border-radius: 25px;
+}
 
 
 
