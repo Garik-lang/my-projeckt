@@ -101,6 +101,7 @@ form {
      padding: 70px;
      padding-left: 185px;
      font-family: 'Muller', sans-serif;
+     font: weight 100px;;
 }
 
 .ripsitions-p{
@@ -235,22 +236,31 @@ form {
 
 .clients-opinion{
     padding-top: 5px;
+    color: #787878;
+    border-bottom: #787878;
 }
 
 
 .clients-foto{
     display: inline;
     padding-left: 30px;
-    padding-top: 10px;
+    padding-top: 25px;
 }
 
 
 .clients-name{
     display: flex;
-    padding-left: 130px;
+    padding-left: 120px;
     padding-bottom: 50px;
-    margin: 0 auto;
+    margin: -60px auto;
 }
+
+.clients-work{
+    padding-left: 120px;
+    color: #787878;
+}
+
+
 
 
 
@@ -267,19 +277,53 @@ form {
 .contacts-Item-list{
     display: flex;
     display: inline-block;
-    border: 1px solid red;
-    width: 120px;
+    margin-left: 285px;
+    width: 150px;
     height: 160px;
 }
 
 .contacts-list-Item{
-    display: flex;
+  padding-top: 30px;
+  width: 235px;
 }
 
 
-.contacts-h3{
-
+.contacts-list-Item-1{
+    margin: -95px auto;
 }
+
+.contacts-list-Item-2{
+    margin: -35px auto;
+    margin-left: 50px;
+}
+
+
+
+
+/*Joinn us*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+
+
+
+
+
+
+
+
 
 
 
