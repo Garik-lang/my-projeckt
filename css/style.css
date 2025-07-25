@@ -101,6 +101,7 @@ form {
      padding: 70px;
      padding-left: 185px;
      font-family: 'Muller', sans-serif;
+     font: weight 100px;;
 }
 
 .ripsitions-p{
@@ -226,21 +227,39 @@ form {
 .clients-Item-list{
     display: flex;
     border: 1px solid #E4E4E4;
-    width: 370px;
-    height: 360px;
-    margin-left: 185px;
+    width: 310px;
+    height: 280px;
+    margin-left: 145px;
     display:inline-flex;
     gap: 30px;
 }
 
-
-.clients-list-Item{
-    flex: 0 0 calc(50%-30px);
+.clients-opinion{
+    padding-top: 5px;
+    color: #787878;
+    border-bottom: #787878;
 }
+
+
+.clients-foto{
+    display: inline;
+    padding-left: 30px;
+    padding-top: 25px;
+}
+
 
 .clients-name{
-   margin-left: 40pxs;
+    display: flex;
+    padding-left: 120px;
+    padding-bottom: 50px;
+    margin: -60px auto;
 }
+
+.clients-work{
+    padding-left: 120px;
+    color: #787878;
+}
+
 
 
 
@@ -258,22 +277,80 @@ form {
 .contacts-Item-list{
     display: flex;
     display: inline-block;
-    border: 1px solid red;
-    width: 120px;
+    margin-left: 285px;
+    width: 150px;
     height: 160px;
 }
 
 .contacts-list-Item{
+  padding-top: 30px;
+  width: 235px;
+}
+
+
+.contacts-list-Item-1{
+    margin: -95px auto;
+}
+
+.contacts-list-Item-2{
+    margin: -35px auto;
+    margin-left: 50px;
+}
+
+
+
+
+/*Joinn us*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+.main-footer{
     display: flex;
 }
 
 
-.contacts-h3{
-
+.footer-logo{
+    margin-left: 125px;
+    margin-top: 15px;
 }
 
 
+.footer-p{
+    margin: 20 auto;
+    margin-left: 25px;
+    color: #787878;
+}
 
+.footer-item-list{
+    display: flex;
+    margin-left: 200px;
+}
 
+.footer-list-item{
+    display: flex;
+    gap: 30px;
+    padding-left: 30px;
+    color: #787878;
+}
 
+.website{
+    margin-left: 55px;
+    margin-top: 12px;
+}
+
+.website-logo{
+    padding-left: 30px;
+}
 
