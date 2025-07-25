@@ -316,17 +316,41 @@ form {
 
 /*footer*/
 
+.main-footer{
+    display: flex;
+}
 
 
+.footer-logo{
+    margin-left: 125px;
+    margin-top: 15px;
+}
 
 
+.footer-p{
+    margin: 20 auto;
+    margin-left: 25px;
+    color: #787878;
+}
 
+.footer-item-list{
+    display: flex;
+    margin-left: 200px;
+}
 
+.footer-list-item{
+    display: flex;
+    gap: 30px;
+    padding-left: 30px;
+    color: #787878;
+}
 
+.website{
+    margin-left: 55px;
+    margin-top: 12px;
+}
 
-
-
-
-
-
+.website-logo{
+    padding-left: 30px;
+}
 
