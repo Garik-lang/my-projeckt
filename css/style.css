@@ -319,10 +319,10 @@ form {
     margin-left: 240px;
 }
 
-
-.join-div{
-    margin-top: 40px;
+input{
+    border: 1px solid gray;
 }
+
 
 .join-input{
     padding-left: 30px;
