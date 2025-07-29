@@ -1,28 +1,28 @@
 @font-face{
-    font-family: 'Muller';
+    font-family: 'Montserrat';
     src: local('Muller-Trial-Black'),
-      url(Muller-Trial-Black.woff) format(woff),
-      url(Muller-Trial-Black.woff2) format(woff2);
+      url(Montserrat-Bold) format(woff),
+      url(Montserrat-Bold) format(woff2);
     font-display: swap;
     font-weight: 400;
     font-style: normal;   
 }
 
 @font-face{
-    font-family: 'Muller';
+    font-family: 'Montserrat';
     src: local('Muller-Trial-Bold'),
-      url(Muller-Trial-Bold.woff) format(woff),
-      url(Muller-Trial-Bold.woff2) format(woff2);
+      url(Montserrat-Medium) format(woff),
+      url(Montserrat-Medium) format(woff2);
     font-display: swap;
     font-weight: 500;
     font-style: normal;   
 }
 
 @font-face{
-    font-family: 'Muller';
+    font-family: 'Montserrat';
     src: local('Muller-Trial-ExtraBoldItalic'),
-      url(Muller-Trial-ExtraBoldItalic.woff) format(woff),
-      url(Muller-Trial-ExtraBoldItalic.woff2) format(woff2);
+      url(Montserrat-ExtraBold) format(woff),
+      url(Montserrat-ExtraBold) format(woff2);
     font-display: swap;
     font-weight: 700;
     font-style: normal;   
@@ -34,8 +34,8 @@
 
 
 body{
-    font-family: 'Muller', sans-serif;
-    width: 1170px;
+    font-family: 'Montserrat', sans-serif;
+    min-width: 1170px;
     justify-content: center;
     margin: 30px auto;
 }
@@ -64,6 +64,11 @@ form {
     border: 1px, #DADADA;
 }
 
+.section{
+    border-bottom: gray;
+}
+
+
 /*header*/
 
 .main-header{
@@ -87,8 +92,8 @@ form {
 .nav-item-list{
     display: flex;
     gap: 50px;
-   align-items: center;
-   justify-content: center;
+   align-items: end;
+   justify-content: end;
 }
 
 .nav-list-item{
@@ -111,7 +116,7 @@ form {
 
 .main-ripsitions{
     background-image:url(/images/first-bg\ 1.jpg);
-    width: 1520.5px;
+    width: calc(50vw + 50%);
     height: 550px;
     margin-top: 30px;
 }
