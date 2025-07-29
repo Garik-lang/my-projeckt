@@ -36,6 +36,8 @@
 body{
     font-family: 'Muller', sans-serif;
     width: 1170px;
+    justify-content: center;
+    margin: 30px auto;
 }
 
 a {
@@ -66,30 +68,41 @@ form {
 
 .main-header{
  display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 .logo-header{
-    margin-left: 186px;
-    margin-top: 36px;
+    display: flex;
+    justify-content: center;
 }
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .nav-item-list{
     display: flex;
-    gap: 52px;
-    justify-content: center;
-    margin-top: 45px;
+    gap: 50px;
+   align-items: center;
+   justify-content: center;
 }
 
 .nav-list-item{
     display: flex;
-    gap: 52px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .free-trial{
     display: flex;
-    margin-left: 900px;
-    margin-top: -50px;
+    justify-content: center;
+    align-items: center;
     padding: 17.5px 30px;
     border-radius: 3px;
 }
