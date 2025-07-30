@@ -92,8 +92,8 @@ form {
 .nav-item-list{
     display: flex;
     gap: 50px;
-   align-items: end;
-   justify-content: end;
+   align-items:flex-end;
+   justify-content: center;
 }
 
 .nav-list-item{
