@@ -35,7 +35,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    min-width: 1170px;
+    max-width: 1540px;
     justify-content: center;
     margin: 30px auto;
 }
@@ -73,7 +73,7 @@ form {
 
 .main-header{
  display: flex;
- justify-content: center;
+ justify-content: space-around;
  align-items: center;
 }
 
@@ -86,14 +86,15 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 
 
 .nav-item-list{
     display: flex;
     gap: 50px;
-   align-items: end;
-   justify-content: end;
+   align-items:flex-end;
+   justify-content: center;
 }
 
 .nav-list-item{
@@ -106,8 +107,6 @@ form {
 
 .free-trial{
     display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 17.5px 30px;
     border-radius: 3px;
 }
@@ -116,115 +115,118 @@ form {
 
 .main-ripsitions{
     background-image:url(/images/first-bg\ 1.jpg);
-    width: calc(50vw + 50%);
+    width: 1540px;
     height: 550px;
-    margin-top: 30px;
+    align-items: center;
 }
 
 .ripsitions-h1{
-     padding: 70px;
+     display:grid;
+     font-family: 'Montserrat', sans-serif;
+     font: weight 100px;
+     padding-top: 110px;
      padding-left: 185px;
-     font-family: 'Muller', sans-serif;
-     font: weight 100px;;
 }
 
 .ripsitions-p{
-   padding-left: 185px;
-   padding-top: 24px;
+    padding-left: 185px;
+    padding-top: 25px;
+    color: #787878;
 }
 
 .ripsitions-buttom{
-    padding: 19px 58px;
+    margin-top: 25px;
     margin-left: 185px;
+    padding: 19px 58px;
     border-radius: 3px;
 }
+
+
+.ripsitions-div{
+    padding-top: 15px;
+    padding-left: 225px;
+    display: flex;
+}
+
+
 
 /*services*/
 
 .services-h2{
-    margin-left: 705px;
+    display: flex;
+justify-content: center;
 }
 
 .services-p{
-    margin-left: 475px;
+display: flex;
+justify-content: center;
 }
 
 
 .services-Item-list{
     display: flex;
+    justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
-    margin-left: 185px;
 }
 
 .services-list-Item{
-    display: flex;
+    display: inline-block;
     border: 1px solid #E4E4E4;
+    border-radius: 5px;
     width: 270px;
     height: 320px;
-    display: inline-block;
 }
 
 .services-img{
-    width: 100px;
-    height: 100px;
-    padding-left: 80px;
+    width: 85px;
+    height: 85px;
+    padding-left: 85px;
 }
 
 .services-list-Item-p{
-    padding-top: 25px;
-    padding-left: 33px;
+   display: flex;
+   justify-content: center;
+   padding-left: 30px;
+   color: #787878;
 }
 
 
 .services-h3{
-    padding-left: 50px;
-    padding-top: 10px;
+   display: flex;
+   justify-content: center;
 }
 
-.services-h3-1{
-    padding-left: 80px;
-    padding-top: 10px;
-}
-
-.services-h3-2{
-    padding-left: 80px;
-    padding-top: 10px;
-}
 /*articles*/
 
 .articles-h2{
-    margin-left: 180px;
-    margin-top: 85px;
+   display: flex;
+   justify-content: space-around;
 }
 
 
 .articles-Item-list{
-    display: flex;
-    border: 1px solid #E4E4E4;
-    margin-left: 135px;
-    width: 560px;
     display: inline-block;
+    border: 1px solid #E4E4E4;
+    width: 560px;
     gap: 30px;
 }
 
 
 .articles-p{
-    padding-top: 2px;
-    margin-left: 8px;
+    display: inline-block;
+    justify-content: center;
     color: #787878;
 }
 
 
 .articles-p-1{
-    padding-top: 80px;
-    margin-left: -115px;
+
     color: #787878;
 }
 
 .articles-h3{
-    padding-top: 25px;
-    margin-left: -50px;
+
 }
 
 
@@ -243,8 +245,7 @@ form {
 
 
 .clients-h2{
-    margin-left: 180px;
-    margin-top: 85px;
+
 }
 
 
@@ -253,13 +254,11 @@ form {
     border: 1px solid #E4E4E4;
     width: 310px;
     height: 280px;
-    margin-left: 145px;
     display:inline-flex;
     gap: 30px;
 }
 
 .clients-opinion{
-    padding-top: 5px;
     color: #787878;
     border-bottom: #787878;
 }
@@ -267,20 +266,18 @@ form {
 
 .clients-foto{
     display: inline;
-    padding-left: 30px;
-    padding-top: 25px;
+
 }
 
 
 .clients-name{
     display: flex;
-    padding-left: 120px;
-    padding-bottom: 50px;
+
     margin: -60px auto;
 }
 
 .clients-work{
-    padding-left: 120px;
+
     color: #787878;
 }
 
@@ -293,49 +290,45 @@ form {
 
 
 .contacts-h2{
-    margin-left: 185px;
-    margin-top: 85px;
+
 }
 
 
 .contacts-Item-list{
     display: flex;
-    display: inline-block;
-    margin-left: 285px;
+
     width: 150px;
     height: 160px;
 }
 
 .contacts-list-Item{
-  padding-top: 30px;
+
   width: 235px;
 }
 
 
 .contacts-list-Item-1{
-    margin: -95px auto;
+
 }
 
 .contacts-list-Item-2{
-    margin: -35px auto;
-    margin-left: 50px;
+
 }
 
 
 /*Joinn us*/
 
 .join-h2{
-    margin-top: 85px;
-    margin-left: 715px;
+
 }
 
 .join-p{
-   margin-left: 595px;
+
 }
 
 
 .join-form{
-    margin-left: 240px;
+
 }
 
 input{
