@@ -35,7 +35,8 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    max-width: 1540px;
+    max-width: 1170px;
+    display: grid;
     justify-content: center;
     margin: 30px auto;
 }
@@ -115,7 +116,7 @@ form {
 
 .main-ripsitions{
     background-image:url(/images/first-bg\ 1.jpg);
-    width: 1540px;
+    width: calc(50vw + 50%);
     height: 550px;
     align-items: center;
 }
@@ -158,10 +159,9 @@ justify-content: center;
 }
 
 .services-p{
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
-
 
 .services-Item-list{
     display: flex;
@@ -174,8 +174,9 @@ justify-content: center;
     display: inline-block;
     border: 1px solid #E4E4E4;
     border-radius: 5px;
-    width: 270px;
-    height: 320px;
+    padding-top: 45px;
+    width: 268px;
+    height: 275px;
 }
 
 .services-img{
@@ -201,12 +202,11 @@ justify-content: center;
 
 .articles-h2{
    display: flex;
-   justify-content: space-around;
 }
 
 
 .articles-Item-list{
-    display: inline-block;
+    display: inline-flex;
     border: 1px solid #E4E4E4;
     width: 560px;
     gap: 30px;
@@ -214,26 +214,28 @@ justify-content: center;
 
 
 .articles-p{
-    display: inline-block;
-    justify-content: center;
+    display: flex;
+    justify-content: baseline;
     color: #787878;
 }
 
 
 .articles-p-1{
-
+    display: flex;
+    justify-content:end;
     color: #787878;
 }
 
 .articles-h3{
-
+ display: flex;
+ justify-content: center;
 }
 
 
 
 .articles-list-Item{
-    display: flex;
-    justify-content: center;
+    display:flex;
+    align-self: start;
 }
 
 .articles-img{
@@ -244,17 +246,13 @@ justify-content: center;
 /*clients*/
 
 
-.clients-h2{
-
-}
 
 
 .clients-Item-list{
-    display: flex;
+    display: inline-block;
     border: 1px solid #E4E4E4;
-    width: 310px;
-    height: 280px;
-    display:inline-flex;
+    width: 370px;
+    height: 360px;
     gap: 30px;
 }
 
@@ -295,40 +293,34 @@ justify-content: center;
 
 
 .contacts-Item-list{
-    display: flex;
-
-    width: 150px;
+    display:inline-flex;
+    justify-content: center;
     height: 160px;
+    padding-left: 150px;
 }
 
 .contacts-list-Item{
-
   width: 235px;
 }
 
 
-.contacts-list-Item-1{
-
-}
-
-.contacts-list-Item-2{
-
-}
 
 
 /*Joinn us*/
 
 .join-h2{
-
+   display: ;
+   justify-content: center;
 }
 
 .join-p{
-
+   display: ;
+   justify-content: center;
 }
 
 
 .join-form{
-
+display: ;
 }
 
 input{
