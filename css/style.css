@@ -206,7 +206,7 @@ justify-content: center;
 
 
 .articles-Item-list{
-    display: inline-flex;
+    display:inline-flex;
     border: 1px solid #E4E4E4;
     width: 560px;
     gap: 30px;
@@ -215,14 +215,14 @@ justify-content: center;
 
 .articles-p{
     display: flex;
-    justify-content: baseline;
+    align-items: center;
     color: #787878;
 }
 
 
 .articles-p-1{
     display: flex;
-    justify-content:end;
+    justify-content:center;
     color: #787878;
 }
 
@@ -235,10 +235,11 @@ justify-content: center;
 
 .articles-list-Item{
     display:flex;
-    align-self: start;
+    flex-direction: column;
 }
 
 .articles-img{
+    display: inline-block;
     width: 185px;
     height: 195px;
 }
