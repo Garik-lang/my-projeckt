@@ -1,7 +1,5 @@
 
-*, ::before ::after{
-    box-sizing: border-box;
-}
+
 
 
 
@@ -216,6 +214,7 @@ justify-content: center;
 
 .articles-Item-list{
     display:flex;
+    flex-direction: column;
     border: 1px solid #E4E4E4;
     width: 560px;
     gap: 30px;
@@ -243,8 +242,8 @@ justify-content: center;
 
 
 .articles-list-Item{
-    display: inline-flex;
-    flex-direction: column;
+    display:flex;
+    flex: 0 0 calc(50% - 15px);
 }
 
 .articles-img{
