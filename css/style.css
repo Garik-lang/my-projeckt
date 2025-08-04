@@ -1,8 +1,4 @@
 
-
-
-
-
 @font-face{
     font-family: 'Montserrat';
     src: local('Muller-Trial-Black'),
@@ -121,8 +117,7 @@ form {
 
 .main-ripsitions{
     background-image:url(/images/first-bg\ 1.jpg);
-    width:100vw;
-    flex: calc(50vw - 50%);
+    width: 0 0 calc(50vw - 50%);
     height: 550px;
     align-items: center;
 }
@@ -214,8 +209,7 @@ justify-content: center;
 
 .articles-Item-list{
     display:flex;
-    flex-direction: column;
-    border: 1px solid #E4E4E4;
+    flex-wrap: wrap;
     width: 560px;
     gap: 30px;
 }
@@ -243,7 +237,9 @@ justify-content: center;
 
 .articles-list-Item{
     display:flex;
+    border: 1px solid #E4E4E4;
     flex: 0 0 calc(50% - 15px);
+    flex-direction: row;
 }
 
 .articles-img{
