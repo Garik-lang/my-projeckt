@@ -253,11 +253,11 @@ justify-content: center;
 
 
 .clients-Item-list{
-    display: inline-block;
+    display: inline-flex;
     border: 1px solid #E4E4E4;
     width: 370px;
     height: 360px;
-    gap: 30px;
+    padding-left: 15px;
 }
 
 .clients-opinion{
@@ -267,8 +267,8 @@ justify-content: center;
 
 
 .clients-foto{
-    display: inline;
-
+    display: flex;
+    justify-content: center;
 }
 
 
