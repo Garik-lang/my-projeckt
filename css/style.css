@@ -75,7 +75,7 @@ form {
 
 .main-header{
  display: flex;
- justify-content: space-around;
+ justify-content: space-between;
  align-items: center;
 }
 
@@ -211,10 +211,13 @@ justify-content: center;
 .articles-Item-list{
     display:flex;
     flex-wrap: wrap;
-    width: 560px;
     gap: 30px;
 }
 
+.articles-div{
+    display: flex;
+    flex-direction: column;
+}
 
 .articles-p{
     display: flex;
@@ -239,7 +242,8 @@ justify-content: center;
 .articles-list-Item{
     display:flex;
     border: 1px solid #E4E4E4;
-    flex: 0 0 calc(50% - 15px);
+    border-radius: 5px;
+    flex: 0 0 calc(50% - 25px);
     flex-direction: row;
 }
 
@@ -286,16 +290,7 @@ justify-content: center;
 
 
 
-
-
 /*contacts*/
-
-
-
-.contacts-h2{
-
-}
-
 
 .contacts-Item-list{
     display:inline-flex;
@@ -309,6 +304,9 @@ justify-content: center;
 }
 
 
+.contacts-div{
+  margin-top: 40px;
+}
 
 
 /*Joinn us*/
