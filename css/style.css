@@ -182,7 +182,7 @@ justify-content: center;
 
 .services-list-Item-p{
    display: flex;
-   justify-content: center;
+   text-align: center;
    font-weight: lighter;
    padding-left: 30px;
    color: #787878;
