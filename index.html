@@ -104,11 +104,11 @@
                 <article class="articles-art">
                  <img class="articles-img" src="images/Rectangle 18.jpg" alt="jurisdiction">
                  <div class="articles-div">
-                    <span class="articles-p">15.Nov.2021</span>
-                    <h3 class="articles-h3">
+                    <span class="articles-text">15 Nov 2021</span>
+                    <h3>
                       Jurisdiction
                     </h3>
-                   <p class="articles-p-1">
+                   <p class="articles-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque totam earum nam consectetur velit.
                    </p>
                   </div> 
@@ -118,11 +118,11 @@
                 <article class="articles-art">
                   <img class="articles-img" src="images/Rectangle 20.jpg" alt="consulting">
                   <div class="articles-div">
-                   <span class="articles-p">28.Nov.2021</span>
-                   <h3 class="articles-h3">
+                   <span class="articles-text">28 Nov 2021</span>
+                   <h3>
                      Consulting
                    </h3>
-                   <p class="articles-p-1">
+                   <p class="articles-text">
                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, in! Nihil, beatae odio id.
                    </p>
                   </div>
@@ -132,11 +132,11 @@
                 <article class="articles-art"> 
                  <img class="articles-img" src="images/Rectangle 23.jpg" alt="rights and obligations">
                  <div class="articles-div">
-                   <span class="articles-p">29.Nov.2021</span>
+                   <span class="articles-text">29 Nov 2021</span>
                    <h3 class="articles-h3">
                      Rights and obligations
                    </h3>
-                   <p class="articles-p-1">
+                   <p class="articles-text">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis inventore cum.
                    </p>
                   </div>
@@ -146,11 +146,11 @@
                 <article class="articles-art">
                 <img class="articles-img" src="images/Rectangle 24.jpg" alt="contractors">
                 <div class="articles-div">
-                 <span class="articles-p">11.Dec.2021</span>
-                 <h3 class="articles-h3">
+                 <span class="articles-text">11 Dec 2021</span>
+                 <h3>
                    Contractors
                  </h3>
-                 <p class="articles-p-1">
+                 <p class="articles-text">
                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic molestias velit consequuntur!
                  </p>
                 </div>
@@ -166,9 +166,13 @@
             <li class="clients-list-Item">
               <p class="clients-opinion">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiatnulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
               </p> 
-              <img src="/images/Group 43.svg" alt="#" class="clients-foto">
-              <p class="clients-name">John Armstrong</p>
-              <p class="clients-work">Customer</p>
+              <footer class="clients-footer">
+               <img src="/images/Group 43.svg" alt="#" class="clients-foto">
+               <div class="clients-div">
+                 <p>John Armstrong</p>
+                 <span class="clients-work">Customer</span>
+               </div>
+              </footer>
             </li>
           </ul>
           <ul class="clients-Item-list">  
@@ -176,11 +180,15 @@
               <p class="clients-opinion">
                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
               </p>
-             <img src="/images/Group 43 (1).svg" alt="#" class="clients-foto">
-             <p class="clients-name">
-              Elizabeth Martin
-            </p>
-            <p class="clients-work">Customer</p> 
+              <footer class="clients-footer">
+               <img src="/images/Group 43 (1).svg" alt="#" class="clients-foto">
+               <div class="clients-div">
+                 <p class="clients-name">
+                   Elizabeth Martin
+                 </p>
+                 <p class="clients-work">Customer</p> 
+               </div>
+              </footer>
             </li>
           </ul> 
           <ul class="clients-Item-list">  
@@ -188,9 +196,13 @@
               <p class="clients-opinion">
                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
               </p>
-             <img src="/images/Group 72.svg" alt="#" class="clients-foto">
-              <p class="clients-name">Robin Soutby</p>
-              <p class="clients-work">Customer</p>
+              <footer class="clients-footer">
+                <img src="/images/Group 72.svg" alt="#" class="clients-foto">
+                <div class="clients-div">
+                 <p class="clients-name">Robin Soutby</p>
+                 <p class="clients-work">Customer</p>
+                </div>
+              </footer>
             </li>
           </ul> 
         </section>
@@ -248,15 +260,21 @@
             Take control of your paid subscriptions today!
           </p>
           <form action="#" class="join-form">
-            <input type="text" name="name" class="join-input" placeholder="Name"><br>
+            <label for="name" class="join-label"> Name</label>
+            <input type="text" name="name" class="join-input" placeholder="Name">
+            <label for="email" class="join-label"> Email</label>
+            <input type="email" name="email" class="join-input" placeholder="E-mail">
+            <label for="phone" class="join-label">Phone</label>
             <input type="text" name="phone" class="join-input" placeholder="Phone" maxlength="9">
-            <input type="email" name="email" class="join-input" placeholder="E-mail"><br>
-            <select name="country" id="country">
-             <option value="">country</option>
-             <option value="">country</option>
-             <option value="">country</option>
-             <option value="">country</option>
-             <option value="">country</option>
+            <label for="country" class="join-label">Country</label> 
+            <select name="country" id="country" class="join-input">
+              <option value="" selected hidden>Country</option>
+              <option value="uk">United Kingdom</option>
+              <option value="us">United States</option>
+              <option value="fr">France</option>
+              <option value="de">Germany</option>
+              <option value="es">Spain</option>
+              <option value="ee">Estonia</option>
             </select>
             <input type="text" name="comment" class="join-comment" placeholder="Comment">
             <button class="join-buttom">GET STARTED</button>
