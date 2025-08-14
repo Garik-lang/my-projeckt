@@ -30,8 +30,14 @@
 }
 
 :root{
-    --color--buttom:#3172B9
+    --color--buttom:#3172B9;
+    --color--as--buttom:#71A7E2;
+    --color--ac--buttom:#0E3B6C;
+    --color--dis--buttom:#C4C4C4;
+
+    --text--color:#787878;
 }
+
 
 body{
     font-family: 'Montserrat', sans-serif;
@@ -62,7 +68,14 @@ form {
 }
 
 .section{
-    border-bottom: gray;
+    margin-top: 85px;
+}
+
+
+.lionic-hr{
+    margin: 0;
+    color: #787878;
+    margin-top: 160px;
 }
 
 
@@ -72,7 +85,9 @@ form {
  display: flex;
  justify-content: space-between;
  align-items: center;
+ padding-bottom: 30px;
 }
+
 
 .logo-header{
     display: flex;
@@ -111,15 +126,17 @@ form {
 /*repasition*/
 
 .main-ripsitions{
-    background-image:url(/images/first-bg\ 1.jpg);
     display: flex;
-    flex: 0 0 calc(50vw - 50%);
+    height: 550px;
+}
+
+.ripsitions-div{
+    background-position: center;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: baseline;
-    margin: 0 auto;
-    height: 550px;
-
+    flex: 0 0 calc(50vw + 50%);
+    background-image: url(../images/first-bg\ 1.jpg)
 }
 
 .ripsitions-h1{
@@ -134,14 +151,17 @@ form {
 }
 
 .ripsitions-buttom{
-
     padding: 19px 28px;
     border-radius: 3px;
+    max-width: 215px;
 }
 
 
-.ripsitions-div{
+.ripsitions-div-1{
     display: flex;
+    align-items: baseline;
+    margin-left: 10px;
+    gap: 13px;
 }
 
 
@@ -174,6 +194,13 @@ justify-content: center;
     height: 275px;
 }
 
+.services-list-Item>li:hover{
+    color: #900909;
+}
+
+
+
+
 .services-img{
     width: 85px;
     height: 85px;
@@ -184,7 +211,6 @@ justify-content: center;
    display: flex;
    text-align: center;
    font-weight: lighter;
-   padding-left: 30px;
    color: #787878;
 }
 
@@ -370,7 +396,8 @@ input{
 
 .main-footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 45px;
 } 
 
 .footer-item-list{
@@ -387,9 +414,11 @@ input{
     display: flex;
     padding-top: 13px;
     gap: 30px;
-    width: 20px;
-    height: 20px;
+    img{
+        width: 30px;
+    }
 }
+
 
 
 
