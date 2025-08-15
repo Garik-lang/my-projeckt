@@ -125,10 +125,10 @@ a:hover{
 }
 a:focus-visible{
     outline: 1px solid;
-
+    color: var(--color--as--buttom);
 }
 a:active{
-    color: var(--color--as--buttom);
+    color: var(--color--buttom);
     padding-top: 2px;
     border-bottom: 2px solid;
 }
@@ -145,6 +145,15 @@ a:active{
 .free-trial:hover{
     background-color: var(--color--as--buttom);
     cursor: pointer;
+}
+
+
+.free-trial:focus{
+    background-color: var(--color--as--buttom);
+}
+
+.free-trial:active{
+    background-color: var(--color--ac--buttom);
 }
 
 
@@ -189,6 +198,14 @@ a:active{
     cursor: pointer;
 }
 
+
+.ripsitions-buttom:focus{
+    background-color: var(--color--as--buttom);
+}
+
+.ripsitions-buttom:active{
+    background-color: var(--color--ac--buttom);
+}
 
 .ripsitions-div-1{
     display: flex;
@@ -314,10 +331,11 @@ justify-content: center;
 
 .articles-list-Item:active{
     background-color: var(--color--ac--buttom);
-
 }
 
-
+.articles-list-Item:focus{
+    background-color: #71A7E2;
+}
 
 
 
@@ -383,9 +401,33 @@ justify-content: center;
     transition: 0.2s;
 }
 
-.nomber:hover{
+.nomber{
+a:hover{
     color: var(--color--as--buttom);
-    cursor: pointer;
+}    
+a:focus{
+    color: var(--color--as--buttom);
+}
+a:active{
+    color: var(--color--ac--buttom);
+}
+}
+
+
+.email{
+    transition: 0.2s;
+}
+
+.email{
+a:hover{
+    color: var(--color--as--buttom);
+}  
+a:focus{
+    color: var(--color--as--buttom);
+}  
+a:active{
+    color: var(--color--ac--buttom);
+}
 }
 
 
@@ -498,7 +540,23 @@ input{
 .footer-list-item{
     display: flex;
     padding-left: 30px;
-    color: #787878;
+    color: #1C1C1C;
+    transition: 0.2s;
+}
+
+.footer-list-item{
+   a:hover{
+    color: var(--color--as--buttom);
+}
+a:focus-visible{
+    outline: 1px solid;
+    color: var(--color--as--buttom);
+}
+a:active{
+    color: var(--color--buttom);
+    padding-top: 2px;
+    border-bottom: 2px solid;
+} 
 }
 
 .website{
@@ -511,11 +569,29 @@ input{
 }
 
 .website-logo{
-
     transition: 0,2s;
 }
 
 
 .website-logo:hover{
-    color: var(--color--as--buttom);
+    g path{
+        fill: var(--color--as--buttom);
+    }
+    stroke{
+        color: var(--color--as--buttom);
+    }
+}
+
+
+
+.website-logo:focus{
+    g path{
+        fill: var(--color--as--buttom);
+    }
+}
+
+.website-logo:active{
+    g path{
+        fill: var(--color--buttom);
+    }
 }
