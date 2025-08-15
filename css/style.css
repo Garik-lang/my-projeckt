@@ -73,10 +73,10 @@ form {
 
 
 .lionic-hr{
-    margin-left: -200px;
-    margin-right: -200px;
-    color: #787878;
-    margin-top: 160px;
+    border: 0;
+    height: 1px;
+    background-color: #787878;
+    width: 0 0 calc(50vw + 50%);
 }
 
 
@@ -119,10 +119,20 @@ form {
     transition: 0.2s;
 }
 
-.nav-list-item:hover{
+.nav-list-item{
+a:hover{
     color: var(--color--as--buttom);
 }
+a:focus-visible{
+    outline: 1px solid;
 
+}
+a:active{
+    color: var(--color--as--buttom);
+    padding-top: 2px;
+    border-bottom: 2px solid;
+}
+}
 
 .free-trial{
     display: flex;
@@ -211,6 +221,9 @@ justify-content: center;
 .services-list-Item:hover{
     background-color: var(--color--buttom);
     cursor: pointer;
+    svg path{
+        fill: #fff;
+    }
     h3 , p {
         color: #fff;
     }
@@ -299,6 +312,15 @@ justify-content: center;
     }
 }
 
+.articles-list-Item:active{
+    background-color: var(--color--ac--buttom);
+
+}
+
+
+
+
+
 .articles-img{
     width: 185px;
     height: 195px;
@@ -373,7 +395,7 @@ justify-content: center;
 }
 
 
-/*Joinn us*/
+/*Join us*/
 
 .join-h2{
    text-align: center;
@@ -489,17 +511,11 @@ input{
 }
 
 .website-logo{
-    color: #000000;
+
     transition: 0,2s;
 }
 
 
-.website-logo{
+.website-logo:hover{
     color: var(--color--as--buttom);
-}
-
-@media only screen and (max-width: 600px) {
-    body{
-        background-color: #3172B9;
-    }
 }
