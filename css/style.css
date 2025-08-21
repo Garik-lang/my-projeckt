@@ -59,7 +59,6 @@ ul{
 
 button {
     border: none;
-    background-color: #3172B9;
     color: white;
 }
 
@@ -157,6 +156,16 @@ a:active{
     background-color: var(--color--ac--buttom);
 }
 
+.mobile-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.button-free-trial{
+    padding: 17.5px 30px;
+    border-radius: 3px;
+    background-color: var(--color--buttom);
+}
 
 /*repasition*/
 
@@ -611,4 +620,27 @@ a:active{
     g path{
         fill: var(--color--buttom);
     }
+}
+
+
+
+@media (max-width: 900px){
+  .ripsitions-div{
+    background-image: none
+  }
+  .nav-list{
+    display: none;
+  }
+  main{
+    >*{
+        flex: none;
+    }
+  }
+}
+
+
+@media (min-width: 900px) {
+  .mobile-nav{
+    display: none;
+  }
 }
