@@ -1,29 +1,29 @@
 
 @font-face{
-    font-family: 'Montserrat';
-    src: local('Muller-Trial-Black'),
-      url(Montserrat-Bold) format(woff),
-      url(Montserrat-Bold) format(woff2);
+    font-family: 'Opensans';
+    src: local('Opensans_Condensed-Bold'),
+      url(Opensans_Condensed-Bold) format(woff),
+      url(Opensans_Condensed-Bold) format(woff2);
     font-display: swap;
     font-weight: 400;
     font-style: normal;   
 }
 
 @font-face{
-    font-family: 'Montserrat';
-    src: local('Muller-Trial-Bold'),
-      url(Montserrat-Medium) format(woff),
-      url(Montserrat-Medium) format(woff2);
+    font-family: 'Opensans';
+    src: local('Opensans_Condensed-Medium'),
+      url(Opensans_Condensed-Medium) format(woff),
+      url(Opensans_Condensed-Medium) format(woff2);
     font-display: swap;
     font-weight: 500;
     font-style: normal;   
 }
 
 @font-face{
-    font-family: 'Montserrat';
-    src: local('Muller-Trial-ExtraBoldItalic'),
-      url(Montserrat-ExtraBold) format(woff),
-      url(Montserrat-ExtraBold) format(woff2);
+    font-family: 'Opensans';
+    src: local('Opensans_SemiCondensed-ExtraBold'),
+      url(Opensans_SemiCondensed-ExtraBold) format(woff),
+      url(Opensans_SemiCondensed-ExtraBold) format(woff2);
     font-display: swap;
     font-weight: 700;
     font-style: normal;   
@@ -40,9 +40,8 @@
 
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Opensans', sans-serif;
     max-width: 1170px;
-    display: grid;
     justify-content: center;
     margin: 30px auto;
 }
@@ -60,6 +59,10 @@ ul{
 button {
     border: none;
     color: white;
+button:focus-visible{
+    outline: 1px solid var(--color--as--buttom);
+    color: var(--color--as--buttom);
+}
 }
 
 form {
@@ -74,8 +77,10 @@ form {
 .lionic-hr{
     border: 0;
     height: 1px;
-    background-color: #787878;
-    width: 0 0 calc(50vw + 50%);
+    margin-top: 160px;
+    margin-bottom: 87px;
+    background-color: #DADADA;
+    width: 100%;
 }
 
 
@@ -147,7 +152,8 @@ a:active{
 }
 
 
-.free-trial:focus{
+
+.free-trial:focus-visible{
     outline: 1px solid var(--color--as--buttom);
     background-color: var(--color--as--buttom);
 }
@@ -185,8 +191,8 @@ a:active{
 
 .ripsitions-h1{
      display:grid;
-     font-family: 'Montserrat', sans-serif;
-     font-weight: unset;
+     font-family: 'Opensans', sans-serif;
+     font-weight: 100;
 }
 
 .ripsitions-p{
@@ -319,6 +325,7 @@ justify-content: center;
 
 .articles-text{
     color: #787878;
+    max-width: 250px;
 }
 
 .articles-list-Item{
@@ -341,12 +348,12 @@ justify-content: center;
 }
 
 .articles-list-Item:active{
-    outline: 1px solid var(--color--as--buttom);
     background-color: var(--color--ac--buttom);
 }
 
 .articles-list-Item:focus-visible{
-    background-color: #71A7E2;
+    outline: 1px solid var(--color--as--buttom);
+    background-color: var(--color--as--buttom);
 }
 
 
@@ -402,7 +409,12 @@ justify-content: center;
     display:inline-flex;
     justify-content: center;
     height: 160px;
-    padding-left: 150px;
+
+}
+
+.contacts-div{
+    display: flex;
+    justify-content: space-around;
 }
 
 .contacts-list-Item{
@@ -442,12 +454,6 @@ a:focus-visible{
 a:active{
     color: var(--color--ac--buttom);
 }
-}
-
-
-
-.contacts-div{
-  margin-top: 40px;
 }
 
 
@@ -511,7 +517,7 @@ input{
     cursor: pointer;
 }
 
-.join-input:focus , .join-comment:focus{
+.join-input:focus-visible , .join-comment:focus-visible{
     background-color: var(--color--as--buttom);
     border-color: var(--color--as--buttom);
 }
@@ -545,6 +551,15 @@ input{
     cursor: pointer;
 }
 
+.join-buttom:active{
+    background-color: var(--color--ac--buttom);
+}
+
+.join-buttom:focus-visible{
+    outline: 1px solid var(--color--as--buttom);
+    background-color: var(--color--as--buttom);
+}
+
 .join-p-2{
     color: #787878;
 }
@@ -555,7 +570,6 @@ input{
 .main-footer{
     display: flex;
     justify-content: space-between;
-    margin-top: 45px;
 } 
 
 .footer-item-list{
