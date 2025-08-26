@@ -165,12 +165,17 @@ a:active{
 .mobile-nav{
     display: flex;
     justify-content: center;
+    gap: 5px;
 }
 
 .button-free-trial{
     padding: 17.5px 30px;
     border-radius: 3px;
     background-color: var(--color--buttom);
+}
+
+.burger-button{
+    background-color: #fff;
 }
 
 /*repasition*/
@@ -636,7 +641,16 @@ a:active{
     }
 }
 
+.list-Item{
+    display: flex;
+    flex: wrap;
+}
 
+@media (max-width: 1100px){
+    .join-div{
+        display: grid;
+    }
+}
 
 @media (max-width: 900px){
   .ripsitions-div{
@@ -652,9 +666,29 @@ a:active{
   }
 }
 
+@media(max-width: 730px){
+    .contacts-div{
+        display: table-caption;
+        justify-content: none;
+    }
+}
 
 @media (min-width: 900px) {
   .mobile-nav{
     display: none;
   }
+}
+
+
+@media ( max-width: 360px){
+    .join-comment{
+        margin-top: 25px;
+        padding-right: 115px;
+        padding-bottom: 240px;
+    }
+    
+   .articles-img{
+    width: 86px;
+    height: 191px;
+   }
 }
